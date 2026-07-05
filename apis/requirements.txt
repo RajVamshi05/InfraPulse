@@ -1,0 +1,26 @@
+# Infra_Pulse - ML Pipeline Dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Web Framework ──────────────────────────────────────────────────────────────
+fastapi==0.136.1
+uvicorn[standard]==0.46.0
+python-multipart==0.0.27       # For file uploads (issue images)
+
+# ── ML / Embeddings ────────────────────────────────────────────────────────────
+torch==2.11.0                  # Deep learning backend
+torchvision==0.26.0
+transformers==5.7.0            # HuggingFace: CLIP, DistilBERT
+Pillow==12.2.0                 # Image handling
+numpy==2.4.4
+scikit-learn==1.8.0            # cosine_similarity, preprocessing
+
+# ── Geospatial ─────────────────────────────────────────────────────────────────
+shapely==2.1.2                 # Polygon geofencing
+
+# ── Data & Serialization ───────────────────────────────────────────────────────
+pydantic==2.13.3
+python-dotenv==1.2.2           # .env config loading
+httpx==0.28.1                  # For inter-service calls
+
+# ── Persistence (lightweight, no external DB required) ────────────────────────
+aiofiles==25.1.0               # Async file I/O for embedding persistence
