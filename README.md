@@ -46,4 +46,6 @@ On the frontend, we provide a sleek, fast, and highly responsive dashboard. User
 ### Why This Matters
 By intercepting duplicates at the source and automatically triaging the workload, Infra Pulse doesn't just save time—it entirely changes how infrastructure teams operate. It turns a chaotic, overwhelming flood of user complaints into a highly organized, prioritized, and actionable checklist. 
 
+### Demo Link - https://drive.google.com/file/d/1cxuSkDs8HrHJjU_gTig5V14_EW3_MArT/view
+
 We are moving away from the era of "we'll get to it when we find it" to a future of true, proactive infrastructure management.
